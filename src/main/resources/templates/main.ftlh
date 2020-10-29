@@ -26,7 +26,7 @@
         <i>Tag: ${message.tag}</i>
         <strong>Author: ${message.authorName}</strong>
     </div>
-<#--    <#else>-->
-<#--        No messages-->
+    <#else>
+        No messages
     </#list>
 </@c.page>
